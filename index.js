@@ -4,10 +4,11 @@ const app = express();
 const PORT = 5000;
 
 app.get('/', (req, res) => {
-  res.send('!');
+  res.send('thalasemia');
 });
 
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
+
 });
